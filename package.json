@@ -1,0 +1,39 @@
+{
+  "name": "@ambitiondev/dayjs-business-days",
+  "version": "0.0.0",
+  "description": "Business days extension for dayjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambitiondev/dayjs-business-days.git"
+  },
+  "keywords": [
+    "dayjs",
+    "business",
+    "days"
+  ],
+  "author": {
+    "email": "info@ambitiondev.io",
+    "name": "Berrie Nachtweh",
+    "url": "https://ambitiondev.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ambitiondev/dayjs-business-days/issues"
+  },
+  "homepage": "https://github.com/ambitiondev/dayjs-business-days#readme",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^2.0.1",
+    "dayjs": "^1.10.4",
+    "dotenv-cli": "^4.0.0",
+    "release-it": "^14.7.0",
+    "typescript": "^4.2.4"
+  }
+}
