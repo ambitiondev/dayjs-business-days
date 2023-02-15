@@ -1,0 +1,5 @@
+@types
+src
+tests
+dist-transpiled
+.scripts

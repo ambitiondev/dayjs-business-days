@@ -5,7 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run clean && npm run compile && npm run bundle",
+    "bundle": "rollup --config",
+    "compile": "tsc",
+    "clean": "node ./.scripts/clean.js",
     "release": "dotenv release-it"
   },
   "files": [
@@ -31,10 +34,14 @@
   },
   "homepage": "https://github.com/ambitiondev/dayjs-business-days#readme",
   "devDependencies": {
-    "@release-it/conventional-changelog": "^2.0.1",
-    "dayjs": "^1.10.4",
-    "dotenv-cli": "^4.0.0",
-    "release-it": "^14.7.0",
-    "typescript": "^4.2.4"
+    "@release-it/conventional-changelog": "^5.1.1",
+    "dotenv-cli": "^7.0.0",
+    "fs-extra": "^11.1.0",
+    "release-it": "^15.6.0",
+    "rollup": "^3.15.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "dayjs": ">1.11.0"
   }
 }

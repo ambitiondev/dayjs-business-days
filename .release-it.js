@@ -15,7 +15,7 @@ module.exports = {
                 name: 'conventionalcommits',
                 types: [
                     {
-                        type: 'feature',
+                        type: 'feat',
                         section: 'Features'
                     },
                     {

@@ -1,6 +1,8 @@
 {
     "compilerOptions": {
-        "outDir": "dist",
+        "outDir": "dist-transpiled",
+        "declaration": true,
+        "declarationDir": "dist/types",
         "target": "esnext",
         "module": "esnext",
         "strict": true,
@@ -12,13 +14,11 @@
         "allowSyntheticDefaultImports": true,
         "sourceMap": true,
         "baseUrl": ".",
-        "paths": {
-            "@/*": ["src/*"],
-            "@interfaces/*": ["@interfaces/*"]
-        }
     },
     "include": [
         "src/**/*.ts"
     ],
-    "exclude": ["node_modules"]
+    "exclude": [
+        "node_modules"
+    ]
 }
