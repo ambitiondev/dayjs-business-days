@@ -2,7 +2,7 @@
     "compilerOptions": {
         "outDir": "dist-transpiled",
         "declaration": true,
-        "declarationDir": "dist/types",
+        "declarationDir": "dist",
         "target": "esnext",
         "module": "esnext",
         "strict": true,

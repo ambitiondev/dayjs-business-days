@@ -106,4 +106,4 @@ const dayjsBusinessDays: PluginFunc<PluginOptions> = (
 };
 
 export { dayjsBusinessDays, PluginOptions };
-export * from './types/_bundle';
+export * from './types/dayjs';
